@@ -1,0 +1,51 @@
+body {
+  background: linear-gradient(to bottom right, #2c3e50, #3498db); /* Gradient background */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  color: #333;
+  padding: 20px;
+  margin: 0;
+  text-align: center; /* Center align the heading */
+}
+
+.charts-container {
+  max-width: 1200px;
+  margin: 20px auto;
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.chart-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; /* Center align charts in the middle of row */
+  margin-bottom: 20px;
+}
+
+.chart {
+  flex: 1; /* Take full width of its container */
+  margin-bottom: 20px;
+}
+
+.filter-charts-container,
+.other-charts-container {
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.chart-fullwidth {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.centered {
+  text-align: center;
+}
